@@ -1,0 +1,476 @@
+Microsoft (R) Build Engine version 4.6.79.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 2015-08-26 9:50:24 AM.
+Project "C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" on node 1 (Rebuild target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|x86".
+Project "C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (1) is building "C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj" (2) on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Foundation\obj\x86\Release\Interop.IWshRuntimeLibrary.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Foundation\obj\x86\Release\Shareit.Foundation.csproj.ResolveComReference.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Foundation\obj\x86\Release\Shareit.Foundation.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Foundation\obj\x86\Release\Shareit.Foundation.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Foundation\obj\x86\Release\Shareit.Foundation.csprojResolveAssemblyReference.cache".
+BeforeBuild:
+  Updating AssemblyInfo to Version 3.0.0.0826
+  Writing to AssemblyInfo files in 
+ResolveComReferences:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe C:\Windows\SysWOW64\wshom.ocx /namespace:IWshRuntimeLibrary /machine:X86 /out:obj\x86\Release\Interop.IWshRuntimeLibrary.dll /sysarray /transform:DispRet /reference:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.dll /reference:C:\work\code\Shareit.Foundation\References\Lenovo.MetricCollectionSDK35.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\work\code\Shareit.Foundation\References\Newtonsoft.Json.dll /reference:C:\work\code\Shareit.Foundation\References\NLog.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Runtime.Serialization.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:C:\work\code\Shareit.Foundation\References\UserVoice.dll /reference:C:\WINDOWS\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll 
+CoreCompile:
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /define:TRACE /highentropyva- /reference:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.dll /reference:C:\work\code\Shareit.Foundation\References\Lenovo.MetricCollectionSDK35.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\work\code\Shareit.Foundation\References\Newtonsoft.Json.dll /reference:C:\work\code\Shareit.Foundation\References\NLog.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\System.Runtime.Serialization.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:C:\work\code\Shareit.Foundation\References\UserVoice.dll /reference:obj\x86\Release\Interop.IWshRuntimeLibrary.dll /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\Shareit.Foundation.dll /target:library /utf8output Configuration.cs Channels\CommandChannel.cs Channels\MessageProcessor.cs Channels\Protocol\ControlMessage.cs Channels\Protocol\FolderMessage.cs CoreTokens.cs Download\DownloadManager.cs Download\HttpDownloader.cs Channels\Protocol\CancelMessage.cs Channels\Protocol\ErrorMessage.cs Channels\Protocol\FilesMessage.cs Channels\Protocol\GeneralPacket.cs Channels\Protocol\HeartBeatPacket.cs Helper\BigIntegerHelper.cs Helper\CoreDateTimeConverter.cs Helper\FileTypeHelper.cs Helper\Interop.cs Helper\NetworkConnectivityStatusIndicator.cs Helper\OperatingSystemExtension.cs Helper\StringHelper.cs Helper\ThumbnailHelper.cs Helper\TimerExtension.cs Helper\TimeSpanExtension.cs Helper\TransferTimerHelper.cs Helper\WlanApi.cs Helper\LogHelper.cs Metrics\MetricsCollection.cs Metrics\MetricsHandler.cs Metrics\MetricsHelper.cs Metrics\UserFeedBacks.cs Native\Gdi32.cs Native\Shell32.cs Native\Windows.cs PlusFeatures\PlayToHandler.cs PlusFeatures\PPTHandler.cs PlusFeatures\RemoteViewHandler.cs PlusFeatures\ScreenCapture.cs Native\User32.cs Upload\Handlers\BrowseDownloadHandler.cs Upload\Handlers\DownloadHandler.cs Upload\Handlers\ListHandler.cs Channels\Protocol\RemoveViewMessage.cs Upload\HttpContext.cs Upload\HttpEnums.cs Upload\HttpExceptions.cs Upload\HttpHeader.cs Upload\HttpMimeType.cs Upload\HttpRange.cs Upload\HttpRequest.cs Upload\HttpResponse.cs Upload\HttpServer.cs Upload\HttpUploader.cs Channels\Protocol\Message.cs Channels\Protocol\PacketBase.cs Channels\Protocol\PresenceMessage.cs Channels\Protocol\RejectMessage.cs Channels\Protocol\SessionMessage.cs Channels\Protocol\SkipMessage.cs Discovery\CloudDiscovery.cs Discovery\IDiscovery.cs CoreDiscoveryManager.cs ISharable.cs CoreItemManager.cs Discovery\LocalDiscovery.cs CoreEndPoint.cs CoreEnums.cs CoreItemInfo.cs CoreManager.cs CoreContext.cs Properties\AssemblyInfo.cs CoreDevice.cs Helper\Tuple.cs Upload\HttpHandler.cs
+Helper\Interop.cs(129,21): warning CS3003: Type of 'NativeWifi.Wlan.WLAN_CLIENT_VERSION_XP_SP2' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(130,21): warning CS3003: Type of 'NativeWifi.Wlan.WLAN_CLIENT_VERSION_LONGHORN' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(134,4): warning CS3001: Argument type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(136,4): warning CS3001: Argument type 'out uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(165,4): warning CS3001: Argument type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(293,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAvailableNetwork.numberOfBssids' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(338,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAvailableNetwork.wlanSignalQuality' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(563,18): warning CS3005: Identifier 'NativeWifi.Wlan.WlanNotificationData.NotificationCode' differing only in case is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(744,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.phyId' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(762,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.linkQuality' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(770,18): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.beaconPeriod' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(774,17): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.timestamp' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(778,17): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.hostTimestamp' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(782,18): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.capabilityInformation' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(786,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.chCenterFrequency' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(794,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.ieOffset' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(798,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.ieSize' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(822,20): warning CS3003: Type of 'NativeWifi.Wlan.WlanRateSet.Rates' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1230,16): warning CS3003: Type of 'NativeWifi.Wlan.Dot11Ssid.SSIDLength' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1244,15): warning CS3009: 'NativeWifi.Wlan.Dot11PhyType': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1346,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.dot11PhyIndex' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1354,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.wlanSignalQuality' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1358,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.rxRate' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1362,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.txRate' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1368,27): warning CS3005: Identifier 'NativeWifi.Wlan.WlanAssociationAttributes.Dot11Bssid' differing only in case is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1414,15): warning CS3009: 'NativeWifi.Wlan.Dot11AuthAlgorithm': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1474,15): warning CS3009: 'NativeWifi.Wlan.Dot11CipherAlgorithm': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1638,15): warning CS3009: 'NativeWifi.Wlan.Dot11OperationMode': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Helper\Interop.cs(1659,15): warning CS3009: 'NativeWifi.Wlan.Dot11RadioState': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(93,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(179,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(218,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(268,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(435,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(461,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(481,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(503,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(538,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(612,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(643,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(674,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(729,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(804,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(824,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(857,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(911,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(937,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsCollection.cs(959,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsHelper.cs(53,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\MetricsHelper.cs(70,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\UserFeedBacks.cs(61,17): warning CS0618: 'NLog.Logger.Error(string, System.Exception)' is obsolete: 'Use Error(Exception exception, string message, params object[] args) method instead.' [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\UserFeedBacks.cs(94,21): warning CS0618: 'NLog.Logger.Error(string, System.Exception)' is obsolete: 'Use Error(Exception exception, string message, params object[] args) method instead.' [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\UserFeedBacks.cs(134,21): warning CS0618: 'NLog.Logger.Error(string, System.Exception)' is obsolete: 'Use Error(Exception exception, string message, params object[] args) method instead.' [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Native\User32.cs(61,69): warning CS3001: Argument type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Discovery\CloudDiscovery.cs(267,21): warning CS0219: The variable 'j' is assigned but its value is never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Discovery\LocalDiscovery.cs(134,13): warning CS0162: Unreachable code detected [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Discovery\LocalDiscovery.cs(275,13): warning CS0162: Unreachable code detected [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Metrics\UserFeedBacks.cs(18,23): warning CS0414: The field 'Shareit.Foundation.Metrics.UserFeedBacks.SSO_KEY' is assigned but its value is never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+Discovery\CloudDiscovery.cs(39,59): warning CS0067: The event 'Shareit.Foundation.Discovery.CloudDiscovery.DeviceStatusChanged' is never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\Shareit.Foundation.dll" to "..\bin\Release\Shareit.Foundation.dll".
+  Shareit.Foundation -> C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll
+  Copying file from "obj\x86\Release\Shareit.Foundation.pdb" to "..\bin\Release\Shareit.Foundation.pdb".
+  Copying file from "obj\x86\Release\Interop.IWshRuntimeLibrary.dll" to "..\bin\Release\Interop.IWshRuntimeLibrary.dll".
+AfterBuild:
+  Updating AssemblyInfo to Version back to 1.0.0.0
+  Writing to AssemblyInfo files in 
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj" (Rebuild target(s)).
+Project "C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (1) is building "C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj" (3) on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\FoundationTest.exe.config".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\FoundationTest.exe".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\FoundationTest.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Common.Logging.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Gma.QrCodeNet.Encoding.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Newtonsoft.Json.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\NHttp.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Shareit.Foundation.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\UserVoice.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\NLog.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\GalaSoft.MvvmLight.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Interop.IWshRuntimeLibrary.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\RestSharp.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Shareit.Foundation.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\NLog.xml".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\Lenovo.MetricCollectionSDK35.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\obj\x86\Release\FoundationTest.csprojResolveAssemblyReference.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\obj\x86\Release\FoundationTest.exe".
+  Deleting file "C:\work\code\Shareit.Foundation\FoundationTest\obj\x86\Release\FoundationTest.pdb".
+CoreCompile:
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /define:TRACE /main:FoundationTest.Example /highentropyva- /reference:C:\work\code\Shareit.Foundation\packages\Common.Logging.2.0.0\lib\2.0\Common.Logging.dll /reference:C:\work\code\Shareit.Foundation\References\Gma.QrCodeNet.Encoding.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\work\code\Shareit.Foundation\References\Newtonsoft.Json.dll /reference:C:\work\code\Shareit.Foundation\packages\NHttp.0.1.7.0\lib\net20\NHttp.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:C:\work\code\Shareit.Foundation\References\UserVoice.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\FoundationTest.exe /target:exe /utf8output Program.cs Properties\AssemblyInfo.cs TestBase.cs TestConnectDevice.cs TestLanDiscovery.cs TestMain.cs TestPlusfeatures_photocast.cs TestPlusfeatures_remoteview.cs TestQRCode.cs TestSendFiles.cs TestSetAppInfo.cs
+Program.cs(179,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+Program.cs(241,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+TestLanDiscovery.cs(11,22): warning CS0414: The field 'FoundationTest.TestLanDiscovery.advertising' is assigned but its value is never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+TestMain.cs(14,23): warning CS0414: The field 'FoundationTest.Example.SSO_KEY' is assigned but its value is never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\work\code\Shareit.Foundation\packages\Common.Logging.2.0.0\lib\2.0\Common.Logging.dll" to "bin\x86\Release\Common.Logging.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\References\Gma.QrCodeNet.Encoding.dll" to "bin\x86\Release\Gma.QrCodeNet.Encoding.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\References\Newtonsoft.Json.dll" to "bin\x86\Release\Newtonsoft.Json.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\packages\NHttp.0.1.7.0\lib\net20\NHttp.dll" to "bin\x86\Release\NHttp.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll" to "bin\x86\Release\Shareit.Foundation.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\References\UserVoice.dll" to "bin\x86\Release\UserVoice.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\NLog.dll" to "bin\x86\Release\NLog.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\Lenovo.MetricCollectionSDK35.dll" to "bin\x86\Release\Lenovo.MetricCollectionSDK35.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\GalaSoft.MvvmLight.dll" to "bin\x86\Release\GalaSoft.MvvmLight.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\Interop.IWshRuntimeLibrary.dll" to "bin\x86\Release\Interop.IWshRuntimeLibrary.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\References\RestSharp.dll" to "bin\x86\Release\RestSharp.dll".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.pdb" to "bin\x86\Release\Shareit.Foundation.pdb".
+  Copying file from "C:\work\code\Shareit.Foundation\bin\Release\NLog.xml" to "bin\x86\Release\NLog.xml".
+_CopyAppConfigFile:
+  Copying file from "app.config" to "bin\x86\Release\FoundationTest.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\FoundationTest.exe" to "bin\x86\Release\FoundationTest.exe".
+  FoundationTest -> C:\work\code\Shareit.Foundation\FoundationTest\bin\x86\Release\FoundationTest.exe
+  Copying file from "obj\x86\Release\FoundationTest.pdb" to "bin\x86\Release\FoundationTest.pdb".
+Done Building Project "C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj" (Rebuild target(s)).
+Project "C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (1) is building "C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj" (4) on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\zh-hans\Shareit.Resource.resources.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Themes\Generic.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\GeneratedInternalTypeHelper.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource_MarkupCompile.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource_MarkupCompile.lref".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\Images\Icon.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\ShareItWindow\DialogWindowStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\ShareItWindow\ShareItPageStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\ShareItWindow\WindowCommandButtonStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\SlideShow\SlideShowStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.g.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Common.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Connected.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Dialog.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Feedback.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Menu.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.ScanPC.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Setting.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.WaitScanQR.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Common.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Connected.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Dialog.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Feedback.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Menu.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.ScanPC.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.Setting.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.Text.WaitScanQR.zh-hans.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.csproj.GenerateResource.Cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\zh-hans\Shareit.Resource.resources.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.dll".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Shareit.Resource.csprojResolveAssemblyReference.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\Images\Menu.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\Styles\Images\Item.baml".
+Project "C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj" (4) is building "C:\work\code\Shareit.Foundation\Shareit.Resource\m4iblrcb.tmp_proj" (5) on node 1 (_CompileTemporaryAssembly target(s)).
+CoreCompile:
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /define:TRACE /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\work\code\Shareit.Foundation\References\System.Windows.Interactivity.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\Shareit.Resource.dll /target:library /utf8output Controls\AccessbilityImage\AccessbilityImage.cs Controls\ShareItWindow\DialogWindow.cs Controls\ShareItWindow\BorderlessWindowBehavior.cs Controls\ShareItWindow\ShareItPage.cs Controls\ShareItWindow\WindowBehaviors.cs Controls\SlideShow\SlideShow.cs Properties\AssemblyInfo.cs Text\Common.Designer.cs Text\Connected.Designer.cs Text\Dialog.Designer.cs Text\DialogSupplementaryResource.cs Text\Feedback.Designer.cs Text\Menu.Designer.cs Text\ScanPC.Designer.cs Text\Setting.Designer.cs Text\FeedbackSupplementaryResource.cs Text\SettingSupplementaryResource.cs Text\SupplementaryResource.cs Text\ScanPCSupplementaryResource.cs Text\WaitScanQRSupplementaryResource.cs Text\WaitScanQR.Designer.cs C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+Controls\ShareItWindow\BorderlessWindowBehavior.cs(47,30): warning CS0675: Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first [C:\work\code\Shareit.Foundation\Shareit.Resource\m4iblrcb.tmp_proj]
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit.Resource\m4iblrcb.tmp_proj" (_CompileTemporaryAssembly target(s)).
+MarkupCompilePass2:
+  MarkupCompilePass2 successfully generated BAML or source code files.
+CleanupTemporaryTargetAssembly:
+  Deleting file "obj\x86\Release\Shareit.Resource.dll".
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\work\code\Shareit.Foundation\References\System.Windows.Interactivity.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /compile Text\Common.resx,obj\x86\Release\Shareit.Resource.Text.Common.resources Text\Connected.resx,obj\x86\Release\Shareit.Resource.Text.Connected.resources Text\Dialog.resx,obj\x86\Release\Shareit.Resource.Text.Dialog.resources Text\Feedback.resx,obj\x86\Release\Shareit.Resource.Text.Feedback.resources Text\Menu.resx,obj\x86\Release\Shareit.Resource.Text.Menu.resources Text\ScanPC.resx,obj\x86\Release\Shareit.Resource.Text.ScanPC.resources Text\Setting.resx,obj\x86\Release\Shareit.Resource.Text.Setting.resources Text\WaitScanQR.resx,obj\x86\Release\Shareit.Resource.Text.WaitScanQR.resources Text\Common.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.Common.zh-hans.resources Text\Connected.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.Connected.zh-hans.resources Text\Dialog.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.Dialog.zh-hans.resources Text\Feedback.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.Feedback.zh-hans.resources Text\Menu.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.Menu.zh-hans.resources Text\ScanPC.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.ScanPC.zh-hans.resources Text\Setting.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.Setting.zh-hans.resources Text\WaitScanQR.zh-hans.resx,obj\x86\Release\Shareit.Resource.Text.WaitScanQR.zh-hans.resources
+  Processing resource file "Text\Common.resx" into "obj\x86\Release\Shareit.Resource.Text.Common.resources".
+  Processing resource file "Text\Connected.resx" into "obj\x86\Release\Shareit.Resource.Text.Connected.resources".
+  Processing resource file "Text\Dialog.resx" into "obj\x86\Release\Shareit.Resource.Text.Dialog.resources".
+  Processing resource file "Text\Feedback.resx" into "obj\x86\Release\Shareit.Resource.Text.Feedback.resources".
+  Processing resource file "Text\Menu.resx" into "obj\x86\Release\Shareit.Resource.Text.Menu.resources".
+  Processing resource file "Text\ScanPC.resx" into "obj\x86\Release\Shareit.Resource.Text.ScanPC.resources".
+  Processing resource file "Text\Setting.resx" into "obj\x86\Release\Shareit.Resource.Text.Setting.resources".
+  Processing resource file "Text\WaitScanQR.resx" into "obj\x86\Release\Shareit.Resource.Text.WaitScanQR.resources".
+  Processing resource file "Text\Common.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.Common.zh-hans.resources".
+  Processing resource file "Text\Connected.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.Connected.zh-hans.resources".
+  Processing resource file "Text\Dialog.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.Dialog.zh-hans.resources".
+  Processing resource file "Text\Feedback.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.Feedback.zh-hans.resources".
+  Processing resource file "Text\Menu.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.Menu.zh-hans.resources".
+  Processing resource file "Text\ScanPC.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.ScanPC.zh-hans.resources".
+  Processing resource file "Text\Setting.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.Setting.zh-hans.resources".
+  Processing resource file "Text\WaitScanQR.zh-hans.resx" into "obj\x86\Release\Shareit.Resource.Text.WaitScanQR.zh-hans.resources".
+CoreCompile:
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /define:TRACE /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\work\code\Shareit.Foundation\References\System.Windows.Interactivity.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\Shareit.Resource.dll /resource:obj\x86\Release\Shareit.Resource.g.resources /resource:obj\x86\Release\Shareit.Resource.Text.Common.resources /resource:obj\x86\Release\Shareit.Resource.Text.Connected.resources /resource:obj\x86\Release\Shareit.Resource.Text.Dialog.resources /resource:obj\x86\Release\Shareit.Resource.Text.Feedback.resources /resource:obj\x86\Release\Shareit.Resource.Text.Menu.resources /resource:obj\x86\Release\Shareit.Resource.Text.ScanPC.resources /resource:obj\x86\Release\Shareit.Resource.Text.Setting.resources /resource:obj\x86\Release\Shareit.Resource.Text.WaitScanQR.resources /target:library /utf8output Controls\AccessbilityImage\AccessbilityImage.cs Controls\ShareItWindow\DialogWindow.cs Controls\ShareItWindow\BorderlessWindowBehavior.cs Controls\ShareItWindow\ShareItPage.cs Controls\ShareItWindow\WindowBehaviors.cs Controls\SlideShow\SlideShow.cs Properties\AssemblyInfo.cs Text\Common.Designer.cs Text\Connected.Designer.cs Text\Dialog.Designer.cs Text\DialogSupplementaryResource.cs Text\Feedback.Designer.cs Text\Menu.Designer.cs Text\ScanPC.Designer.cs Text\Setting.Designer.cs Text\FeedbackSupplementaryResource.cs Text\SettingSupplementaryResource.cs Text\SupplementaryResource.cs Text\ScanPCSupplementaryResource.cs Text\WaitScanQRSupplementaryResource.cs Text\WaitScanQR.Designer.cs C:\work\code\Shareit.Foundation\Shareit.Resource\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+Controls\ShareItWindow\BorderlessWindowBehavior.cs(47,30): warning CS0675: Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first [C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj]
+GenerateSatelliteAssemblies:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\AL.exe /culture:zh-hans /out:obj\x86\Release\zh-hans\Shareit.Resource.resources.dll /platform:x86 /template:obj\x86\Release\Shareit.Resource.dll /embed:obj\x86\Release\Shareit.Resource.Text.Common.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.Connected.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.Dialog.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.Feedback.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.Menu.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.ScanPC.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.Setting.zh-hans.resources /embed:obj\x86\Release\Shareit.Resource.Text.WaitScanQR.zh-hans.resources
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\Shareit.Resource.dll" to "..\bin\Release\Shareit.Resource.dll".
+  Shareit.Resource -> C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.dll
+  Copying file from "obj\x86\Release\Shareit.Resource.pdb" to "..\bin\Release\Shareit.Resource.pdb".
+  Copying file from "obj\x86\Release\zh-hans\Shareit.Resource.resources.dll" to "..\bin\Release\zh-hans\Shareit.Resource.resources.dll".
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj" (Rebuild target(s)).
+Project "C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (1) is building "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (6) on node 1 (Rebuild target(s)).
+Project "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (6) is building "C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj.metaproj" (7) on node 1 (Rebuild target(s)).
+Project "C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj.metaproj" (7) is building "C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj" (8) on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.exe.config".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.exe".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\ShareitUpdater.csprojResolveAssemblyReference.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\App.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\App.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\ShareitUpdater_MarkupCompile.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\ShareitUpdater.g.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\ShareitUpdater.exe".
+  Deleting file "C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\ShareitUpdater.pdb".
+BeforeBuild:
+  Updating AssemblyInfo to Version 3.0.0.0826
+  Writing to AssemblyInfo files in 
+CoreCompile:
+  C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /define:TRACE /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\ShareitUpdater.exe /resource:obj\x86\Release\ShareitUpdater.g.resources /target:winexe /utf8output /win32icon:..\Shareit.Resource\Image\logo.ico App.xaml.cs CheckPackageMD5.cs XMLType\DescriptionFileHandler.cs XMLType\LanguageDefine.cs XMLType\LocationType.cs XMLType\OSVersionType.cs Program.cs Properties\AssemblyInfo.cs XMLType\RegionDefine.cs XMLType\SHAREitVersionType.cs XMLType\TargetCondition.cs XMLType\UpdateConditionHelper.cs XMLType\UpdateDescription.cs UpdateManager.cs C:\work\code\Shareit.Foundation\ShareitUpdater\obj\x86\Release\App.g.cs
+CheckPackageMD5.cs(19,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+XMLType\DescriptionFileHandler.cs(211,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+XMLType\DescriptionFileHandler.cs(256,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+XMLType\DescriptionFileHandler.cs(276,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+XMLType\UpdateConditionHelper.cs(38,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+XMLType\UpdateConditionHelper.cs(160,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+XMLType\UpdateConditionHelper.cs(253,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+UpdateManager.cs(115,34): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+UpdateManager.cs(133,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+UpdateManager.cs(19,43): warning CS0067: The event 'ShareitUpdater.UpdateManager.UpdateStatusChanged' is never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+_CopyAppConfigFile:
+  Copying file from "App.config" to "..\bin\Release\ShareitUpdater.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\ShareitUpdater.exe" to "..\bin\Release\ShareitUpdater.exe".
+  ShareitUpdater -> C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.exe
+  Copying file from "obj\x86\Release\ShareitUpdater.pdb" to "..\bin\Release\ShareitUpdater.pdb".
+AfterBuild:
+  Updating AssemblyInfo to Version back to 1.0.0.0
+  Writing to AssemblyInfo files in 
+Done Building Project "C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj" (Rebuild target(s)).
+Done Building Project "C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj.metaproj" (Rebuild target(s)).
+Project "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (6) is building "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj" (9) on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.exe.config".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.exe".
+  Deleting file "C:\work\code\Shareit.Foundation\bin\Release\Shareit.pdb".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit.csprojResolveAssemblyReference.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\AppTheme.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\CommonStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Page\ConnectedPhoneStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Page\ConnectedWindowsStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\HighContrastTheme.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Control\ItemStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\NormalTheme.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Page\ScanStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Page\WaitScanQRStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Window\FeedbackStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Window\PeerRequestStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\Window\SettingStyle.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\ReceiveItem.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\SendItem.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\StarsControl.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Connecting.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\WaitScanQR.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\AboutWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ConnectedSettingWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MainWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindowsOKCancel.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\RemoteViewRequestWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PeerRequestWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PhotoShowcaseWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ScreenShotWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\SettingWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\App.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\DeviceList.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\ReceiveItem.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\SendItem.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\StarsControl.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\TransferList.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedPhone.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedWindows.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Connecting.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Scan.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\WaitScanQR.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\AboutWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ConnectedSettingWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\FeedbackWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MainWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindowsOKCancel.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\RemoteViewRequestWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PeerRequestWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PhotoShowcaseWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ScreenShotWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\SettingWindow.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\GeneratedInternalTypeHelper.g.cs".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit_MarkupCompile.cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit_MarkupCompile.lref".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\App.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Themes\CommonConverter.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\DeviceList.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\TransferList.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedPhone.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedWindows.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Scan.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\FeedbackWindow.baml".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit.g.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit.Properties.Resources.resources".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit.csproj.GenerateResource.Cache".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit.exe".
+  Deleting file "C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\Shareit.pdb".
+BeforeBuild:
+  Updating AssemblyInfo to Version 3.0.0.0826
+  Writing to AssemblyInfo files in 
+Project "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj" (9) is building "C:\work\code\Shareit.Foundation\Shareit\t3mrwo0r.tmp_proj" (10) on node 1 (_CompileTemporaryAssembly target(s)).
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /highentropyva- /reference:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.dll /reference:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.Extras.dll /reference:C:\work\code\Shareit.Foundation\References\Gma.QrCodeNet.Encoding.dll /reference:C:\work\code\Shareit.Foundation\References\Microsoft.Practices.ServiceLocation.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\work\code\Shareit.Foundation\References\NLog.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.dll /reference:C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.exe /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\work\code\Shareit.Foundation\References\System.Windows.Interactivity.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:C:\work\code\Shareit.Foundation\References\Transitionals.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\UIAutomationProvider.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\Shareit.exe /target:winexe /utf8output /win32icon:..\Shareit.Resource\Image\logo.ico Converter\CancelItemVisibilityConverter.cs Converter\DeviceVisibilityConverter.cs Converter\FailVisibilityConverter.cs Converter\FileIconConverter.cs Converter\FileSizeConverter.cs Converter\ItemAvatarConverter.cs Converter\ScanHelpImageConverter.cs Converter\StarLevelConverter.cs Converter\ProcessConverter.cs Converter\StatusVisibilityConverter.cs Converter\TransferSpeedConverter.cs Extensions\ItemInfoExtension.cs Helper\SingletonWindow.cs Helper\WindowFlash.cs Extensions\BitmapExtension.cs Helper\FailureFeedbackHelper.cs Helper\StringConverterToCoreItemInfo.cs Helper\SystemSleepManagement.cs ViewModel\FeedbackViewModel.cs View\Control\DeviceList.xaml.cs View\Control\StarsControl.xaml.cs View\Page\ConnectedWindows.xaml.cs View\Page\Connecting.xaml.cs View\ViewLocator.cs View\Page\Scan.xaml.cs View\Window\AboutWindow.xaml.cs View\Window\ConnectedSettingWindow.xaml.cs View\Window\FeedbackWindow.xaml.cs View\Window\MessageWindowsOKCancel.xaml.cs View\Window\MessageWindow.xaml.cs View\Window\RemoteViewRequestWindow.xaml.cs View\Window\PeerRequestWindow.xaml.cs View\Window\PhotoShowcaseWindow.xaml.cs View\Window\ScreenShotWindow.xaml.cs View\Window\SettingWindow.xaml.cs Converter\AvatarTypeToImageConverter.cs Model\Device.cs Model\ItemInfo.cs Program.cs ViewModel\SettingViewModel.cs ViewModel\Tokens.cs ViewModel\ViewModelLocator.cs App.xaml.cs ViewModel\ShareViewModel.cs View\Control\ReceiveItem.xaml.cs View\Control\SendItem.xaml.cs View\Control\TransferItemSelector.cs View\Control\TransferList.xaml.cs View\Page\ConnectedPhone.xaml.cs View\Page\WaitScanQR.xaml.cs View\Window\MainWindow.xaml.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\App.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\DeviceList.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\ReceiveItem.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\SendItem.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\StarsControl.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\TransferList.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedPhone.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedWindows.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Connecting.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Scan.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\WaitScanQR.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\AboutWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ConnectedSettingWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\FeedbackWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MainWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindowsOKCancel.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\RemoteViewRequestWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PeerRequestWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PhotoShowcaseWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ScreenShotWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\SettingWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+Program.cs(70,34): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit\t3mrwo0r.tmp_proj]
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit\t3mrwo0r.tmp_proj" (_CompileTemporaryAssembly target(s)).
+MarkupCompilePass2:
+  MarkupCompilePass2 successfully generated BAML or source code files.
+CleanupTemporaryTargetAssembly:
+  Deleting file "obj\x86\Release\Shareit.exe".
+CoreResGen:
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\Resgen.exe" /useSourcePath /r:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.dll /r:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.Extras.dll /r:C:\work\code\Shareit.Foundation\References\Gma.QrCodeNet.Encoding.dll /r:C:\work\code\Shareit.Foundation\References\Microsoft.Practices.ServiceLocation.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\work\code\Shareit.Foundation\References\NLog.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /r:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll /r:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.dll /r:C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.exe /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /r:C:\work\code\Shareit.Foundation\References\System.Windows.Interactivity.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /r:C:\work\code\Shareit.Foundation\References\Transitionals.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\UIAutomationProvider.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /compile Properties\Resources.resx,obj\x86\Release\Shareit.Properties.Resources.resources
+  Processing resource file "Properties\Resources.resx" into "obj\x86\Release\Shareit.Properties.Resources.resources".
+CoreCompile:
+  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /highentropyva- /reference:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.dll /reference:C:\work\code\Shareit.Foundation\References\GalaSoft.MvvmLight.Extras.dll /reference:C:\work\code\Shareit.Foundation\References\Gma.QrCodeNet.Encoding.dll /reference:C:\work\code\Shareit.Foundation\References\Microsoft.Practices.ServiceLocation.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\work\code\Shareit.Foundation\References\NLog.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\PresentationFramework.dll" /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Foundation.dll /reference:C:\work\code\Shareit.Foundation\bin\Release\Shareit.Resource.dll /reference:C:\work\code\Shareit.Foundation\bin\Release\ShareitUpdater.exe /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\work\code\Shareit.Foundation\References\System.Windows.Interactivity.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:C:\work\code\Shareit.Foundation\References\Transitionals.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\UIAutomationProvider.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\WindowsBase.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\Shareit.exe /resource:obj\x86\Release\Shareit.g.resources /resource:obj\x86\Release\Shareit.Properties.Resources.resources /target:winexe /utf8output /win32icon:..\Shareit.Resource\Image\logo.ico Converter\CancelItemVisibilityConverter.cs Converter\DeviceVisibilityConverter.cs Converter\FailVisibilityConverter.cs Converter\FileIconConverter.cs Converter\FileSizeConverter.cs Converter\ItemAvatarConverter.cs Converter\ScanHelpImageConverter.cs Converter\StarLevelConverter.cs Converter\ProcessConverter.cs Converter\StatusVisibilityConverter.cs Converter\TransferSpeedConverter.cs Extensions\ItemInfoExtension.cs Helper\SingletonWindow.cs Helper\WindowFlash.cs Extensions\BitmapExtension.cs Helper\FailureFeedbackHelper.cs Helper\StringConverterToCoreItemInfo.cs Helper\SystemSleepManagement.cs ViewModel\FeedbackViewModel.cs View\Control\DeviceList.xaml.cs View\Control\StarsControl.xaml.cs View\Page\ConnectedWindows.xaml.cs View\Page\Connecting.xaml.cs View\ViewLocator.cs View\Page\Scan.xaml.cs View\Window\AboutWindow.xaml.cs View\Window\ConnectedSettingWindow.xaml.cs View\Window\FeedbackWindow.xaml.cs View\Window\MessageWindowsOKCancel.xaml.cs View\Window\MessageWindow.xaml.cs View\Window\RemoteViewRequestWindow.xaml.cs View\Window\PeerRequestWindow.xaml.cs View\Window\PhotoShowcaseWindow.xaml.cs View\Window\ScreenShotWindow.xaml.cs View\Window\SettingWindow.xaml.cs Converter\AvatarTypeToImageConverter.cs Model\Device.cs Model\ItemInfo.cs Program.cs ViewModel\SettingViewModel.cs ViewModel\Tokens.cs ViewModel\ViewModelLocator.cs App.xaml.cs ViewModel\ShareViewModel.cs View\Control\ReceiveItem.xaml.cs View\Control\SendItem.xaml.cs View\Control\TransferItemSelector.cs View\Control\TransferList.xaml.cs View\Page\ConnectedPhone.xaml.cs View\Page\WaitScanQR.xaml.cs View\Window\MainWindow.xaml.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\App.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\DeviceList.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\ReceiveItem.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\SendItem.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\StarsControl.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Control\TransferList.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedPhone.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\ConnectedWindows.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Connecting.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\Scan.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Page\WaitScanQR.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\AboutWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ConnectedSettingWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\FeedbackWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MainWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindowsOKCancel.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\MessageWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\RemoteViewRequestWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PeerRequestWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\PhotoShowcaseWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\ScreenShotWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\View\Window\SettingWindow.g.cs C:\work\code\Shareit.Foundation\Shareit\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+Program.cs(70,34): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj]
+_CopyAppConfigFile:
+  Copying file from "app.config" to "..\bin\Release\Shareit.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\Shareit.exe" to "..\bin\Release\Shareit.exe".
+  Shareit -> C:\work\code\Shareit.Foundation\bin\Release\Shareit.exe
+  Copying file from "obj\x86\Release\Shareit.pdb" to "..\bin\Release\Shareit.pdb".
+AfterBuild:
+  Updating AssemblyInfo to Version back to 1.0.0.0
+  Writing to AssemblyInfo files in 
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj" (Rebuild target(s)).
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (Rebuild target(s)).
+Done Building Project "C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target(s)).
+
+Build succeeded.
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj" (Rebuild target) (2) ->
+(CoreCompile target) -> 
+  Helper\Interop.cs(129,21): warning CS3003: Type of 'NativeWifi.Wlan.WLAN_CLIENT_VERSION_XP_SP2' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(130,21): warning CS3003: Type of 'NativeWifi.Wlan.WLAN_CLIENT_VERSION_LONGHORN' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(134,4): warning CS3001: Argument type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(136,4): warning CS3001: Argument type 'out uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(165,4): warning CS3001: Argument type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(293,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAvailableNetwork.numberOfBssids' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(338,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAvailableNetwork.wlanSignalQuality' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(563,18): warning CS3005: Identifier 'NativeWifi.Wlan.WlanNotificationData.NotificationCode' differing only in case is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(744,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.phyId' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(762,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.linkQuality' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(770,18): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.beaconPeriod' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(774,17): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.timestamp' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(778,17): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.hostTimestamp' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(782,18): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.capabilityInformation' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(786,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.chCenterFrequency' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(794,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.ieOffset' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(798,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanBssEntry.ieSize' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(822,20): warning CS3003: Type of 'NativeWifi.Wlan.WlanRateSet.Rates' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1230,16): warning CS3003: Type of 'NativeWifi.Wlan.Dot11Ssid.SSIDLength' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1244,15): warning CS3009: 'NativeWifi.Wlan.Dot11PhyType': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1346,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.dot11PhyIndex' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1354,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.wlanSignalQuality' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1358,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.rxRate' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1362,16): warning CS3003: Type of 'NativeWifi.Wlan.WlanAssociationAttributes.txRate' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1368,27): warning CS3005: Identifier 'NativeWifi.Wlan.WlanAssociationAttributes.Dot11Bssid' differing only in case is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1414,15): warning CS3009: 'NativeWifi.Wlan.Dot11AuthAlgorithm': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1474,15): warning CS3009: 'NativeWifi.Wlan.Dot11CipherAlgorithm': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1638,15): warning CS3009: 'NativeWifi.Wlan.Dot11OperationMode': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Helper\Interop.cs(1659,15): warning CS3009: 'NativeWifi.Wlan.Dot11RadioState': base type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(93,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(179,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(218,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(268,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(435,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(461,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(481,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(503,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(538,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(612,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(643,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(674,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(729,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(804,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(824,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(857,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(911,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(937,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsCollection.cs(959,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsHelper.cs(53,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\MetricsHelper.cs(70,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\UserFeedBacks.cs(61,17): warning CS0618: 'NLog.Logger.Error(string, System.Exception)' is obsolete: 'Use Error(Exception exception, string message, params object[] args) method instead.' [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\UserFeedBacks.cs(94,21): warning CS0618: 'NLog.Logger.Error(string, System.Exception)' is obsolete: 'Use Error(Exception exception, string message, params object[] args) method instead.' [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\UserFeedBacks.cs(134,21): warning CS0618: 'NLog.Logger.Error(string, System.Exception)' is obsolete: 'Use Error(Exception exception, string message, params object[] args) method instead.' [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Native\User32.cs(61,69): warning CS3001: Argument type 'uint' is not CLS-compliant [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Discovery\CloudDiscovery.cs(267,21): warning CS0219: The variable 'j' is assigned but its value is never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Discovery\LocalDiscovery.cs(134,13): warning CS0162: Unreachable code detected [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Discovery\LocalDiscovery.cs(275,13): warning CS0162: Unreachable code detected [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Metrics\UserFeedBacks.cs(18,23): warning CS0414: The field 'Shareit.Foundation.Metrics.UserFeedBacks.SSO_KEY' is assigned but its value is never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+  Discovery\CloudDiscovery.cs(39,59): warning CS0067: The event 'Shareit.Foundation.Discovery.CloudDiscovery.DeviceStatusChanged' is never used [C:\work\code\Shareit.Foundation\Shareit.Foundation\Shareit.Foundation.csproj]
+
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj" (Rebuild target) (3) ->
+  Program.cs(179,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+  Program.cs(241,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+  TestLanDiscovery.cs(11,22): warning CS0414: The field 'FoundationTest.TestLanDiscovery.advertising' is assigned but its value is never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+  TestMain.cs(14,23): warning CS0414: The field 'FoundationTest.Example.SSO_KEY' is assigned but its value is never used [C:\work\code\Shareit.Foundation\FoundationTest\FoundationTest.csproj]
+
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj" (Rebuild target) (4) ->
+"C:\work\code\Shareit.Foundation\Shareit.Resource\m4iblrcb.tmp_proj" (_CompileTemporaryAssembly target) (5) ->
+  Controls\ShareItWindow\BorderlessWindowBehavior.cs(47,30): warning CS0675: Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first [C:\work\code\Shareit.Foundation\Shareit.Resource\m4iblrcb.tmp_proj]
+
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj" (Rebuild target) (4) ->
+  Controls\ShareItWindow\BorderlessWindowBehavior.cs(47,30): warning CS0675: Bitwise-or operator used on a sign-extended operand; consider casting to a smaller unsigned type first [C:\work\code\Shareit.Foundation\Shareit.Resource\Shareit.Resource.csproj]
+
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (Rebuild target) (6) ->
+"C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj.metaproj" (Rebuild target) (7) ->
+"C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj" (Rebuild target) (8) ->
+  CheckPackageMD5.cs(19,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  XMLType\DescriptionFileHandler.cs(211,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  XMLType\DescriptionFileHandler.cs(256,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  XMLType\DescriptionFileHandler.cs(276,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  XMLType\UpdateConditionHelper.cs(38,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  XMLType\UpdateConditionHelper.cs(160,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  XMLType\UpdateConditionHelper.cs(253,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  UpdateManager.cs(115,34): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  UpdateManager.cs(133,30): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+  UpdateManager.cs(19,43): warning CS0067: The event 'ShareitUpdater.UpdateManager.UpdateStatusChanged' is never used [C:\work\code\Shareit.Foundation\ShareitUpdater\ShareitUpdater.csproj]
+
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (Rebuild target) (6) ->
+"C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj" (Rebuild target) (9) ->
+"C:\work\code\Shareit.Foundation\Shareit\t3mrwo0r.tmp_proj" (_CompileTemporaryAssembly target) (10) ->
+  Program.cs(70,34): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit\t3mrwo0r.tmp_proj]
+
+
+"C:\work\code\Shareit.Foundation\Shareit.Foundation.sln" (Rebuild target) (1) ->
+"C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj.metaproj" (Rebuild target) (6) ->
+"C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj" (Rebuild target) (9) ->
+  Program.cs(70,34): warning CS0168: The variable 'ex' is declared but never used [C:\work\code\Shareit.Foundation\Shareit\Shareit.csproj]
+
+    77 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:10.56

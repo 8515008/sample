@@ -1,0 +1,292 @@
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+
+C:\work\code\Shareit.Foundation\installer>if 1 == 0 goto returnmain 
+
+C:\work\code\Shareit.Foundation\installer>ping localhost -n 15 
+
+Pinging jxzhou [::1] with 32 bytes of data:
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+Reply from ::1: time<1ms 
+
+Ping statistics for ::1:
+    Packets: Sent = 15, Received = 15, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\work\code\Shareit.Foundation\installer>goto checkfiles 
+
+C:\work\code\Shareit.Foundation\installer>dir "h:\REMOVE - TO START SIGNING" 
+ Volume in drive H is Blddrv
+ Volume Serial Number is FCBA-0963
+
+ Directory of h:\
+
+2015-08-26  09:40 AM                13 REMOVE - TO START SIGNING
+               1 File(s)             13 bytes
+               0 Dir(s)  92,857,679,872 bytes free
+
+C:\work\code\Shareit.Foundation\installer>if 0 == 0 goto returnmain 

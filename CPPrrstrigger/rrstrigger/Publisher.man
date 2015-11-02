@@ -1,0 +1,123 @@
+﻿<!-- <?xml version="1.0" encoding="UTF-16"?> -->
+<instrumentationManifest
+            xmlns="http://schemas.microsoft.com/win/2004/08/events"
+            xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <instrumentation>
+
+    <events xmlns="http://schemas.microsoft.com/win/2004/08/events">
+      <!-- Publisher Info -->
+      <provider name="Lenovo-Rescue and Recovery-POLO"
+          guid="{27B66B66-6DF9-4E63-B6C0-DD1881C8BCF9}"
+          symbol="ProviderGuid"
+          resourceFileName="."
+          messageFileName=".">
+        <!--Channel to which this Publisher can publish -->
+        <channels>
+          <channel chid="RNR-CHANNEL"
+              name="Lenovo-Rescue and Recovery-POLO"
+              type="Operational"
+              symbol="CHANNEL_RNR"
+              isolation="Application"
+              enabled="true"/>
+        </channels>
+        <keywords>
+          <keyword name="Read" symbol="READ_KEYWORD" mask="0x1" />
+          <keyword name="Write" symbol="WRITE_KEYWORD" mask="0x2" />
+          <keyword name="Local" symbol="LOCAL_KEYWORD" mask="0x4" />
+          <keyword name="Remote" symbol="REMOTE_KEYWORD" mask="0x8" />
+        </keywords>
+
+        <maps>
+          <valueMap name="TransferType">
+            <map value="1" message="$(string.Map.Download)"/>
+            <map value="2" message="$(string.Map.Upload)"/>
+            <map value="3" message="$(string.Map.UploadReply)"/>
+          </valueMap>
+
+          <bitMap name="DaysOfTheWeek">
+            <map value="0x1" message="$(string.Map.Sunday)"/>
+            <map value="0x2" message="$(string.Map.Monday)"/>
+            <map value="0x4" message="$(string.Map.Tuesday)"/>
+            <map value="0x8" message="$(string.Map.Wednesday)"/>
+            <map value="0x10" message="$(string.Map.Thursday)"/>
+            <map value="0x20" message="$(string.Map.Friday)"/>
+            <map value="0x40" message="$(string.Map.Saturday)"/>
+          </bitMap>
+        </maps>
+
+        <!--Event Templates -->
+        <templates>
+
+          <template tid="GenericEventTemplate">
+            <data name="BufferSize" inType="win:UInt32" />
+            <data name="Buffer" inType="win:Binary" length="BufferSize"/>
+            <data name="Certificate" inType="win:Binary" length="11" />
+            <data name="IsLocal" inType="win:Boolean" />
+            <data name="Path" inType="win:UnicodeString" />
+
+            <data name="ValuesCount" inType="win:UInt16" />
+            <struct name="Values" count="ValuesCount" >
+              <data name="Name" inType="win:UnicodeString" />
+              <data name="Value" inType="win:UInt16" />
+            </struct>
+
+            <data name="Day" inType="win:UInt32" map="DaysOfTheWeek"/>
+            <data name="Transfer" inType="win:UInt32" map="TransferType"/>
+
+            <UserData>
+              <EventData xmlns="ProviderNamespace">
+                <Transfer> %9 </Transfer>
+                <Day> %8 </Day>
+                <Values> %7 </Values>
+                <ValuesCount> %6 </ValuesCount>
+                <Path> %5 </Path>
+                <IsLocal> %4 </IsLocal>
+                <Certificate> %3 </Certificate>
+                <Buffer> %2 </Buffer>
+                <BufferSize> %1 </BufferSize>
+              </EventData>
+            </UserData>
+          </template>
+
+        </templates>
+
+        <events>
+          <event value="1"
+              level="win:Informational"
+              template="GenericEventTemplate"
+              channel="RNR-CHANNEL"
+              symbol="GenericDataEvent"
+              message ="$(string.Event.WhenToTransfer)"
+              keywords="Read Local" />
+        </events>
+
+
+      </provider>
+
+    </events>
+
+  </instrumentation>
+  <localization>
+    <resources culture="en-US">
+      <stringTable>
+
+        <string id="Map.Download" value="Download"/>
+        <string id="Map.Upload" value="Upload"/>
+        <string id="Map.UploadReply" value="Upload-reply"/>
+
+        <string id="Map.Sunday" value="Sunday"/>
+        <string id="Map.Monday" value="Monday"/>
+        <string id="Map.Tuesday" value="Tuesday"/>
+        <string id="Map.Wednesday" value="Wednesday"/>
+        <string id="Map.Thursday" value="Thursday"/>
+        <string id="Map.Friday" value="Friday"/>
+        <string id="Map.Saturday" value="Saturday"/>
+
+        <string id="Event.WhenToTransfer" value="The %9 transfer will occur %8."/>
+
+      </stringTable>
+    </resources>
+  </localization>
+</instrumentationManifest>
+

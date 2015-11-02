@@ -1,0 +1,12 @@
+Hi Kevin, 
+数字签名服务器账号已经创建如下：
+Kevin :Accout(standard user) : share-user-kevin 
+Robbie:Accout(standard user) : share-user-robbie 密码：robbie123
+密码我稍后再分别发给你们，账户有效期为3个月，到期后，看情况是否继续开发权限。
+
+数字签名服务器的操作步骤如下：
+1. Copy files/folders need to be signed to the input folder : \\10.176.36.40\bc_in
+      2. Delete the tag file : REMOVE - TO START SIGNING
+         If the signing process is running, the tag file name will change to : WORKING - NOW SIGNING
+      3. When signing complete, the tag file name will change back to : REMOVE - TO START SIGNING
+          All the signed files/folders can be found in output folder : \\10.176.36.40\bc_out
